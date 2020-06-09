@@ -51,6 +51,9 @@ $('#lognow').on('submit', function(e) {
   entries.push(newEntry);
   localStorage.setItem('entries', JSON.stringify(entries));
 
+  // clear form
+  this.reset();
+
   // render entry
   renderEntry(newEntry);
 });
