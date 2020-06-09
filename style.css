@@ -1,3 +1,37 @@
 h1 {
   background-color: #DD2288;
 }
+
+.home {
+  color: red;
+}
+
+.hygeine {
+  color: orange;
+}
+
+.code {
+  color: green;
+}
+
+.learning {
+  color: blue;
+}
+
+.vanlife {
+  color: #777;
+}
+
+.social {
+  color: purple;
+}
+
+.games {
+  background-color: red;
+  color: yellow;
+}
+
+.fun {
+  background-color: red;
+  color: lightblue;
+}
