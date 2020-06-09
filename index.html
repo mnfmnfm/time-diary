@@ -10,9 +10,29 @@
 <body>
   <div class="container">
     <h1>This is the Time Diary</h1>
-
-    
+    <h2>Log now!</h2>
+    <div class="row">
+      <form id="lognow">
+        <div class="md-6">
+          <label for="title">What were you doing?</label>
+          <input id="title" name="title" placeholder="(optional)" />
+        </div>
+        <div class="md-6">
+          <label>Which category?</label>
+          <label for="hygeine">Hygeine</label><input type="radio" name="category" value="hygeine" id="hygeine" />
+          <label for="home">Home</label><input type="radio" name="category" value="home" id="home" />
+          <label for="learning">Learning/Betterment</label><input type="radio" name="category" value="learning" id="learning" />
+          <label for="code">Coding</label><input type="radio" name="category" value="code" id="code" />
+          <label for="vanlife">Trip Planning</label><input type="radio" name="category" value="vanlife" id="vanlife" />
+          <label for="social">Socializing</label><input type="radio" name="category" value="social" id="social" />
+          <label for="games">Playing Games</label><input type="radio" name="category" value="games" id="games" />
+          <label for="fun">Other Fun</label><input type="radio" name="category" value="fun" id="fun" />
+        </div>
+        <input type="submit" />
+      </form>
+    </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
