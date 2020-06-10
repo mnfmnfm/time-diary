@@ -35,3 +35,11 @@ h1 {
   background-color: red;
   color: lightblue;
 }
+
+.set-holder{
+  display: none;
+}
+
+input:checked + .set-holder{
+  display: block;
+}

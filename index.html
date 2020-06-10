@@ -28,6 +28,15 @@
           <label for="games">Playing Games</label><input type="radio" name="category" value="games" id="games" />
           <label for="fun">Other Fun</label><input type="radio" name="category" value="fun" id="fun" />
         </div>
+        <div class="md-6">
+          <label for="set">Optional: set start/end times</label>
+          <input type="checkbox" name="set" id="set" />
+          <div class="set-holder">
+            <label for="starttime">Start time</label><input type="datetime-local" name="starttime" id="starttime" step=1 />
+            <label for="endtime">End time</label><input type="datetime-local" name="endtime" id="endtime" step=1 />
+          </div>
+        </div>
+        
         <input type="submit" />
       </form>
     </div>
